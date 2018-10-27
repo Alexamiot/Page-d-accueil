@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="pageAc.css">
-    <link rel="stylesheet" type="text/css" href="responsive.css">
     <title>MeerCast</title>
 </head>
 
@@ -18,6 +17,7 @@
     		<ul class="mainNav">
     		<li class="active"><a href="">ACCUEIL</a></li>
     		<li><a href="">SERVICES</a></li>
+        <li><a href="Devis/pagedevis.html">DEMANDER UN DEVIS</a></li>
        		<li><button class="openbtn" onclick="openNav2()">NOUS CONTACTER</button>
     		<li><a href="">FAQ</a></li>
     		<li><button class="openbtn" onclick="openNav()">SE CONNECTER</button></li>
@@ -70,13 +70,13 @@
     	<div class="hero">
     		<h1>Entrez dans la Maison du Futur </h1>
     		<div class="button">
-    			<button onclick="bodyFunction()" class="btn btnOne">Entrer</button>
+    			<a href="#inner" class="btn btnOne">Entrer</a>
     			<a href="http://youtube.com" class="btn btnTwo">Regarder la vidéo</a>
     		</div>
     	</div>
     </header>
     <section class="wrapper style1">
-				<div class="inner">
+				<div id="inner">
 					<article class="article1">
 						<span class="image"><img src="image/MeercastBlack.png" alt="MeerCast" /></span>
 						<div class="content">
@@ -114,10 +114,6 @@ function openNav2() {
 
 function closeNav2() {
   document.getElementById("myNav").style.height = "0%";
-}
-function bodyFunction() {
-    document.body.scrollTop = 770; // For Safari
-    document.documentElement.scrollTop = 770; // For Chrome, Firefox, IE and Opera
 }
 </script>
 </body>
