@@ -5,7 +5,7 @@
 }
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../background.png);
-	height: 16vh;
+	height: 13vh;
 	background-size: cover;
 }
 .mainNav{
@@ -49,126 +49,27 @@ header{
 	float: left;
 	margin-left: 80px;
 }
-.hero{
-	position: absolute;
-	width: 60%;
-	margin-left: 25%;
-	margin-top: 10em;
-}
-h1{
-	color:white;
-	text-transform: uppercase;
-	font-size: 50px;
-	text-align: center;
-	margin-top: 13%;
-	margin-right: 10%;
-}
-.button{
-	margin-top: 2%;
-	margin-left: 27%;
-}
-.btn{
-	border: 1px solid white;
-	padding: 10px 30px;
-	color: white;
-	text-decoration: none;
-	margin-right: 5px;
-	font-size: 13px;
-	text-transform: uppercase;
-	font-family: "Roboto",sans-serif;
-}
-.btnOne{
-	background-color: transparent;
-	cursor: pointer;
-}
-.btnOne:hover{
-	background-color: darkorange;
-	transition: all 0.4s ease-in;
-}
-.btnTwo{
-	background-color: darkorange;
-}
+
 img{
 	width: 200px;
 	height:140px;
 }
-
-.inner{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+#bandeau{
+	background-color: #e2e2e2;
+	background-image: url(image1.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 25vh;
 }
-.wrapper {
-	padding: 8em 0 6em 0;
-	position: relative;
+.textdev{
+	padding: 3%;
+	width: 45%;
+	font-family: "inherit",sans-serif;
+	font-size: 15pt;
 }
-#inner {
-	margin: auto;
-	width: 60em;
-}
-.wrapper.style1 {
-	border: 2px solid-black;
-	/*background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url("ciel2.jpg");*/
-	background-color: #e8e9ed;
-	color: black;
-	/*font-family: "Roboto",sans-serif;*/
-}
-.article1{
-	font-family:"Raleway", Helvetica, sans-serif;
-	display: flex;
-	height: 250px;
-	text-align: center;
-	background-color: #ffffff;
-}
-.article1 img{
-	width: 28em;
-	height: 100%;
-}
-.article2{
-	font-family:"Raleway", Helvetica, sans-serif;
-	display: flex;
-	text-align: center;
-	margin-top: 10%;
-	background-color: #ffffff;
-}
-.article2 img{
-	width: 28em;
-	height: 100%;
-}
-.content{
-	padding: 5px;
-	margin-top: 30px;
-	margin-left: 5px;
-	text-align:center;
-}
-.content2{
-	padding: 5px;
-	margin-top: 30px;
-	margin-left: 30px;
-	text-align: center;
-}
-.content h2{
-	padding: 10px;
-	margin-bottom: 5px;
-	text-align: center;
-}
-.content2 h2{
-	padding: 10px;
-	margin-bottom: 5px;
-	text-align: center;
-}
-.boutton{
-	cursor: pointer;
-	margin-top: 20px;
-	padding: 12px;
-	border-radius: 30px;
-	border-color: black;
-	background-color: white;
-	color: black ;
-}
-
-.boutton: hover{
-	background-color: darkorange;
+.textdev > h1{
+	margin-bottom: 10px;
 }
 footer{
 	height: 100px;
@@ -180,7 +81,7 @@ footer h3{
 	padding: 30px;
 	font-family: "Raleway", sans-serif;
 }
-
+/* Le sidepannel de connexion  */
 .sidepanel  {
     width: 0px;
     position: fixed;
