@@ -3,8 +3,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="pageAc.css">
+    <link rel="stylesheet" type="text/css" href="../Design/pageAc.css">
     <title>MeerCast</title>
+    <link rel="icon"  href="favicon/favicon-16x16.png" type="image/png" sizes="any">
+
 </head>
 
 <body>
@@ -17,7 +19,7 @@
     		<ul class="mainNav">
     		<li class="active"><a href="">ACCUEIL</a></li>
     		<li><a href="">SERVICES</a></li>
-        <li><a href="Devis/pagedevis.html">DEMANDER UN DEVIS</a></li>
+        <li><a href="index.php?action=see_view_2">DEMANDER UN DEVIS</a></li>
        		<li><button class="openbtn" onclick="openNav2()">NOUS CONTACTER</button>
     		<li><a href="">FAQ</a></li>
     		<li><button class="openbtn" onclick="openNav()">SE CONNECTER</button></li>

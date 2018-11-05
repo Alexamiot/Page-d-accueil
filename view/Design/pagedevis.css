@@ -4,7 +4,7 @@
 	padding: 0;
 }
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../background.png);
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(background.png);
 	height: 13vh;
 	background-size: cover;
 }
@@ -55,24 +55,51 @@ img{
 	height:140px;
 }
 #bandeau{
-	background-color: #e2e2e2;
-	background-image: url(image1.jpg);
-	background-size: auto;
+	background-color: #dfdfdf;
+	background-image: url(image2.jpg);
+	background-size: ;
 	background-repeat: no-repeat;
 	background-position: right;
-	height: 25vh;
+	height: 29vh;
 }
 .textdev{
 	padding: 3%;
-	width: 45%;
+	width: 40%;
 	font-family: "inherit",sans-serif;
-	font-size: 15pt;
+	font-size: 12pt;
 }
 .textdev > h1{
 	margin-bottom: 10px;
 }
+#titredevis{
+	text-align: center;
+	margin-bottom: 1%;
+}
+.debutdevis{
+	height: 57vh;
+	font-family:"inherit",sans-serif;
+	margin-top: 1%;
+	padding: 20px;
+}
+.debutdevis input[type="checkbox"] + label {
+      padding:10px;
+      margin:2% ;
+}
+.debutdevis input[type="checkbox"]:checked + label:before {
+	
+}
+
+#debutgauche{
+	margin-left:5%;
+	float: left;
+}
+#debutdroit{
+	float: right;
+	margin-right: 0%;
+}
+
 footer{
-	height: 100px;
+	height: 12vh;
 	background-color: #555;
 	color:#e8e9ed;
 }
@@ -208,7 +235,7 @@ footer h3{
     right: 45px;
     font-size: 60px;
 }
-input[type=text],input, select, textarea {
+input[type=text], select, textarea {
     width: 70%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -245,12 +272,4 @@ input[type=submit]:hover {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-}
-@media only screen and (max-width: 768px) {
-	.mainNav{
-		font-size: 12pt
-	}
-	.hero{
-		margin-top: 50%
-	}
 }
